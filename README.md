@@ -4,7 +4,7 @@ This is a project that aims to train a siamese network for image similarity usin
 
 ## Dataset
 
-The dataset used in this project is a subset of the [Whale Recognition Challenge](^1^) hosted by Kaggle. It contains 50 folders, each with 10 images of a different whale species. The images are resized to 128x128 pixels and named as 0.jpg, 1.jpg, ..., 9.jpg. The dataset is split into 90% train and 10% test, and then used to create triplets of images for the siamese network. A triplet consists of an anchor image, a positive image (same whale species as the anchor), and a negative image (different whale species from the anchor).
+The dataset used in this project is a subset of the Whale Recognition Challenge hosted by Kaggle. It contains 50 folders, each with 10 images of a different whale species. The images are resized to 128x128 pixels and named as 0.jpg, 1.jpg, ..., 9.jpg. The dataset is split into 90% train and 10% test, and then used to create triplets of images for the siamese network. A triplet consists of an anchor image, a positive image (same whale species as the anchor), and a negative image (different whale species from the anchor).
 
 ## Model
 
