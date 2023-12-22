@@ -1,4 +1,4 @@
-# Train CV 3
+# Siamese Model For Whale Detection
 
 This is a project that aims to train a siamese network for image similarity using whale images. A siamese network is a type of neural network that learns to compare two inputs and output a similarity score. In this project, we use the Xception model as the base encoder to extract features from the images, and then use a custom distance layer to compute the Euclidean distance between the anchor, positive, and negative images. The goal is to minimize the distance between the anchor and the positive images, and maximize the distance between the anchor and the negative images.
 
