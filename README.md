@@ -18,4 +18,26 @@ The model is trained using the Adam optimizer with a learning rate of 1e-3 and a
 
 ## Results
 
-The model is trained for 60 epochs with a batch size of 128. The training loss decreases from 0.21962 to 0.00029, and the test accuracy reaches 1.00000. The model is able to learn to distinguish different whale species based on their images, and output a similarity score that reflects their resemblance. The model is saved as a pickle file named siamese_model.pkl.
+The model underwent training for a duration of **60 epochs** with a **batch size of 128**. Throughout the training process, there was a significant reduction in loss, plummeting from **0.21962** to a mere **0.00029**, while the test accuracy soared to an impressive **85.55%**. This performance indicates the model's proficiency in differentiating between various whale species through their visual representations, subsequently generating a similarity score that mirrors their likeness.
+
+**Training Confusion Matrix**:
+The confusion matrix from the training phase can be visualized below, demonstrating the model's ability to accurately classify the whale species.
+
+
+![image](https://github.com/Mark-Yousri/Siamese-Model-for-whale-detection/assets/100801214/833ed576-eca9-4ac6-8957-e11a458eb282)
+
+
+
+
+
+
+
+
+
+
+   
+**Testing Confusion Matrix**:
+The testing phase confusion matrix is available below, showcasing the model's effectiveness in generalizing its classification capabilities to unseen data.
+
+![image](https://github.com/Mark-Yousri/Siamese-Model-for-whale-detection/assets/100801214/152b74c8-72b9-4440-b388-c47baaf4610a)
+
